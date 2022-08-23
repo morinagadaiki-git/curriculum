@@ -1,0 +1,25 @@
+--問--
+以下のMACアドレスを確認し、EUI-64を用いて64ビットのインターフェースIDに拡張してください
+
+ p.46
+
+　例：MACアドレス：1111.1111.1111
+
+インターフェースID：13 11 11 FF FE 11 11 11
+
+
+（１）MACアドレス：AAAA.AAAA.AAAA
+          AA AA AA  FE FE  AA AA AA
+      1010 1010  ⇒　1010 1000
+      AA ⇒　A0
+      インターフェースID： A0 AA AA  FE FE  AA AA AA
+
+（２）MACアドレス：9876.5432.10FE
+      1001 1000  ⇒　1001 1010
+      98   ⇒　9A 
+      インターフェースID： 9A 76 54 FE FE 32 10 FE
+
+（３）MACアドレス：FFFF.FFFF.FFFF
+      1111 1111  ⇒　1111 1101
+      FF   ⇒　FD
+      インターフェースID： FD FF FF FE FE FF FF FF
