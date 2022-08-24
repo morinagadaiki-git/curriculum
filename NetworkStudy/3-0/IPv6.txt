@@ -11,8 +11,8 @@
 （１）MACアドレス：AAAA.AAAA.AAAA
           AA AA AA  FE FE  AA AA AA
       1010 1010  ⇒　1010 1000
-      AA ⇒　A0
-      インターフェースID： A0 AA AA  FE FE  AA AA AA
+      AA ⇒　A8
+      インターフェースID： A8 AA AA  FE FE  AA AA AA
 
 （２）MACアドレス：9876.5432.10FE
       1001 1000  ⇒　1001 1010
